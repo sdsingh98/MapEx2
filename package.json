@@ -1,0 +1,27 @@
+{
+  "name": "MapEx2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@remobile/react-native-battery-status": "^1.0.3",
+    "@remobile/react-native-cordova": "^1.1.1",
+    "react": "16.0.0",
+    "react-native": "0.50.1",
+    "react-native-android-location-services-dialog-box": "^2.3.2",
+    "react-native-maps": "^0.17.1",
+    "react-native-restart": "0.0.4"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
